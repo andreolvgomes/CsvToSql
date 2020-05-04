@@ -1,0 +1,14 @@
+C:\Users\André\source\repos\CsvToSql\CsvToSql\bin\Debug\CsvToSql.exe.config
+C:\Users\André\source\repos\CsvToSql\CsvToSql\bin\Debug\CsvToSql.exe
+C:\Users\André\source\repos\CsvToSql\CsvToSql\bin\Debug\CsvToSql.pdb
+C:\Users\André\source\repos\CsvToSql\CsvToSql\obj\Debug\CsvToSql.csprojAssemblyReference.cache
+C:\Users\André\source\repos\CsvToSql\CsvToSql\obj\Debug\MainWindow.baml
+C:\Users\André\source\repos\CsvToSql\CsvToSql\obj\Debug\MainWindow.g.cs
+C:\Users\André\source\repos\CsvToSql\CsvToSql\obj\Debug\App.g.cs
+C:\Users\André\source\repos\CsvToSql\CsvToSql\obj\Debug\CsvToSql_MarkupCompile.cache
+C:\Users\André\source\repos\CsvToSql\CsvToSql\obj\Debug\CsvToSql.g.resources
+C:\Users\André\source\repos\CsvToSql\CsvToSql\obj\Debug\CsvToSql.Properties.Resources.resources
+C:\Users\André\source\repos\CsvToSql\CsvToSql\obj\Debug\CsvToSql.csproj.GenerateResource.cache
+C:\Users\André\source\repos\CsvToSql\CsvToSql\obj\Debug\CsvToSql.csproj.CoreCompileInputs.cache
+C:\Users\André\source\repos\CsvToSql\CsvToSql\obj\Debug\CsvToSql.exe
+C:\Users\André\source\repos\CsvToSql\CsvToSql\obj\Debug\CsvToSql.pdb
