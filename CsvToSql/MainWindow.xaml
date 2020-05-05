@@ -3,17 +3,26 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        Title="MainWindow" Height="450" Width="500" WindowStartupLocation="CenterScreen">
+        Title="MainWindow" Height="450" Width="500" WindowStartupLocation="CenterScreen"
+        >
     <StackPanel Margin="10">
         <TextBlock Text="ConnectionSTring"/>
         <TextBox x:Name="txtConnectionString" Text="server=DESKTOP-S8UOP11\SQLEXPRESS;database=bmf;integrated security=sspi"/>
 
         <TextBlock Text="CSV"/>
-        <TextBox x:Name="txtCsv" Text="D:\Trade Quant\Correlação\datasets\ABEV3.SA.csv"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:Name="txtCsv" Text="D:\Trade Quant\Correlação\datasets\ABEV3.SA.csv"/>
+            <Button Grid.Column="1" Content="..." Width="40" Click="ChooseCsv_Click"/>
+        </Grid>
 
         <TextBlock Text="Tabela"/>
         <TextBox x:Name="txtTabela" Text="Test"/>
-        
+
         <Button Content="Execute" Click="Button_Click"/>
     </StackPanel>
 </Window>

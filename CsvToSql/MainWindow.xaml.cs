@@ -23,6 +23,19 @@ namespace CsvToSql
     /// </summary>
     public partial class MainWindow : Window
     {
+        /*
+        --drop table Test
+
+create table VALE3(
+    [Date] varchar(50),
+	[Open] varchar(50),
+	[High] varchar(50),
+	[Low] varchar(50),
+	[Close] varchar(50),
+	[Adj Close] varchar(50),
+	[Volume] varchar(50),
+)
+        */
         public MainWindow()
         {
             InitializeComponent();
@@ -71,6 +84,17 @@ namespace CsvToSql
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void ChooseCsv_Click(object sender, RoutedEventArgs e)
+        {
+            using (System.Windows.Forms.OpenFileDialog openFileDialog = new System.Windows.Forms.OpenFileDialog())
+            {
+                openFileDialog.Filter = "Csv files (*.csv)|*.csv|All files (*.*)|*.*";
+
+                if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                    this.txtCsv.Text = openFileDialog.FileName;
             }
         }
     }
