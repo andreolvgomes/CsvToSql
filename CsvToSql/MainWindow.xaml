@@ -23,6 +23,6 @@
         <TextBlock Text="Tabela"/>
         <TextBox x:Name="txtTabela" Text="Test"/>
 
-        <Button Content="Execute" Click="Button_Click"/>
+        <Button Content="Execute" Click="Button_Click" Margin="0,50,0,0"/>
     </StackPanel>
 </Window>
